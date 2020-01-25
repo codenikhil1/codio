@@ -1,3 +1,6 @@
 module.exports.home = function(req,res){
-    return res.end('how   doing');
+    return res.render('home',{
+        title : "Codio"
+
+    })
 }
